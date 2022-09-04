@@ -19,6 +19,9 @@ function App() {
         }}
       >
         <BudgetCard name="Entertainment" gray amount={1100} max={1000}></BudgetCard>
+        <BudgetCard name="Food" gray amount={200} max={1000}></BudgetCard>
+        <BudgetCard name="Car" gray amount={500} max={1000}></BudgetCard>
+        <BudgetCard name="Misc" gray amount={900} max={1000}></BudgetCard>
       </div>
     </Container>
   );
