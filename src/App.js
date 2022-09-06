@@ -50,7 +50,7 @@ function App() {
               />
             );
           })}
-          <UncategorizedBudgetCard />
+          <UncategorizedBudgetCard onAddExpenseClick={openAddExpenseModal} />
           <TotalBudgetCard />
         </div>
       </Container>
