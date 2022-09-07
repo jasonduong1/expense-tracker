@@ -31,7 +31,13 @@ export const BudgetsProvider = ({ children }) => {
     });
   }
   function deleteBudget({ id }) {
-    //address uncat budget after delete
+    setExpenses((prevExpenses) => {
+      return prevExpenses.map((expense) => {
+        if (expense.budgetId !== id) return expense;
+        return { ...expense, budgetId: UNCATEGORIZED_BUDGET_ID };
+      });
+    });
+
     setBudgets((prevBudgets) => {
       return prevBudgets.filter((budget) => budget.id !== id);
     });
