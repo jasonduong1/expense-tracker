@@ -31,7 +31,7 @@ export default function AddBudgetModal({ show, handleClose }) {
             <Form.Control ref={maxRef} type="number" required min={0} step={0.01} />
           </Form.Group>
           <div className="d-flex justify-content-end">
-            <Button variant="primary" type="submit">
+            <Button variant="primary" size="sm" type="submit">
               Add
             </Button>
           </div>

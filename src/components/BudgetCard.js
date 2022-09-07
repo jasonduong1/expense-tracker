@@ -22,10 +22,10 @@ export default function BudgetCard({ name, amount, max, gray, hideButtons, onAdd
         {max && <ProgressBar variant={getProgressBarVariant(amount, max)} min={0} max={max} now={amount} />}
         {!hideButtons && (
           <Stack direction="horizontal" gap="2" className="mt-4">
-            <Button variant="outline-primary" className="ms-auto" onClick={onAddExpenseClick}>
+            <Button variant="outline-primary" className="ms-auto" size="sm" onClick={onAddExpenseClick}>
               Add Expense
             </Button>
-            <Button onClick={onViewExpensesClick} variant="outline-secondary">
+            <Button onClick={onViewExpensesClick} size="sm" variant="outline-secondary">
               View Expenses
             </Button>
           </Stack>

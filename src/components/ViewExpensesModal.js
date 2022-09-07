@@ -23,6 +23,7 @@ export default function ViewExpensesModal({ budgetId, handleClose }) {
                   deleteBudget(budget);
                   handleClose();
                 }}
+                size="sm"
                 variant="outline-danger"
               >
                 Delete
