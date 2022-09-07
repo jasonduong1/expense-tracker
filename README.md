@@ -1,3 +1,9 @@
+# 💰 Tracker
+
+React expense tracking web app styled with Bootstrap. Integrated with React hooks, useState, useRef, and useContext.
+
+![alt text](https://github.com/jasonduong1/expense-tracker/blob/main/ss.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +74,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # expense-tracker
