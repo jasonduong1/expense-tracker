@@ -1,6 +1,6 @@
 # 💰 Tracker
 
-React expense tracking web app styled with Bootstrap. Integrated with React hooks, useState, useRef, and useContext.
+React expense tracking web app styled with Bootstrap.
 
 Check out the deployed version [here](https://money-trackr.netlify.app/).
 
