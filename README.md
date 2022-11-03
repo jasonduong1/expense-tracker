@@ -4,7 +4,7 @@ React expense tracking web app styled with Bootstrap.
 
 Check out the deployed version [here](https://money-trackr.netlify.app/).
 
-![alt text](https://github.com/jasonduong1/expense-tracker/blob/main/ss.jpg)
+![alt text](https://github.com/jasonduong1/expense-tracker/blob/main/src/images/ss.jpg)
 
 # Getting Started with Create React App
 
